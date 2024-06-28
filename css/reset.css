@@ -1,0 +1,13 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'ChosunSg';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunSg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{padding: 0; margin: 0; box-sizing: border-box;}
+a{text-decoration: none; color: inherit;}
+ul, li{list-style: none;}
+table{border-collapse: collapse; border-spacing: 0;}
+img{vertical-align: bottom;}
+body{font-family: 'ChosunSg';}
