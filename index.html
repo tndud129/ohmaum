@@ -8,10 +8,13 @@
     <title>온마음정신건강의학과의원</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
+    <script src="script/jquery-3.7.1.js"></script>
+    <script src="script/main.js"></script>
 </head>
 
 <body>
     <div id="wrap">
+
         <header id="top_inner">
             <h1 class="logo"><a href="#header"></a></h1>
             <nav class="nav">
@@ -20,6 +23,7 @@
                         <a href="#">온마음이야기</a>
                         <ul class="sub">
                             <li><a href="#">의료진소개</a></li>
+
                             <li><a href="#">병원 둘러보기</a></li>
                             <li><a href="#">오시는 길</a></li>
                             <li><a href="#">공지사항</a></li>
@@ -59,59 +63,68 @@
                     </li>
                 </ul><!-- nav_menu -->
             </nav><!-- nav -->
+            <div class="sub_bg"></div>
         </header><!-- top_inner -->
 
         <div class="slide">
-            <div class="main_slide"><a href="#"><img src="img/mainslide.gif" alt="main_slide"></a></div>
+            <div><a href="#"><img src="img/mainslide.gif" alt="main_slide"></a></div>
         </div> <!-- slide -->
 
         <div class="banner">
+            
             <img src="img/ban01.png" alt="banner01">
             <img src="img/ban02.png" alt="banner02">
             <img src="img/ban03.png" alt="banner03">
         </div> <!-- banner -->
 
-        <main class="main_inner">
-            <div class="docter">
-                <img src="img/doctor01.png" alt="doctor01">
-                <p>의사.김닥터</p>
-                <img src="img/doctor02.png" alt="doctor02">
-                <p>의사.최닥터</p>
-            </div> <!-- docter -->
+
+        <main id="main">
+            <div class="doctor">
+                <div class="d_i1">
+                    <a href="#"><img src="img/doctor01.png" alt=""></a>
+                    <p>원장.김닥터 </p>
+                </div>
+                <div class="d_i2">
+                    <a href="#"><img src="img/doctor02.png" alt=""></a>
+                    <p>부원장.최닥터 </p>
+                </div>
+            </div><!-- doctor -->
 
             <div class="box">
-                <div class="box1">
-                    <a href="#">
-                        <img src="img/slide01.jpg" alt="slide01">
-                        <div class="box_i">
-                            <h3>온마음 이야기</h3>
-                        </div>
-                    </a>
-                </div>
-                <div class="box2">
-                    <a href="#">
-                        <img src="img/slide02.jpg" alt="slide02">
-                        <div class="box_i">
-                            <h3>성인클리닉</h3>
-                        </div>
-                    </a>
-                </div>
-                <div class="box3">
-                    <a href="#">
-                        <img src="img/slide03.jpg" alt="slide03">
-                        <div class="box_i">
-                            <h3>소아청소년클리닉</h3>
-                        </div>
-                    </a>
-                </div>
-                <div class="box4">
-                    <a href="#">
-                        <img src="img/slide04.jpg" alt="slide04">
-                        <div class="box_i">
-                            <h3>뇌, 마음클리닉</h3>
-                        </div>
-                    </a>
-                </div>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="img/slide04.jpg" alt="slide0">
+                            <div class="b_text">
+                                <h2>온마음이야기</h2>
+                            </div> <!-- b_text -->
+                        </a>
+                    </li> <!-- box_01 -->
+                    <li>
+                        <a href="#">
+                        <img src="img/1.jpg" alt="slide02">
+                        <div class="b_text">
+                            <h2>성인클리닉</h2>
+                        </div> <!-- b_text -->
+                        </a>
+                    </li> <!-- box_02 -->
+                    <li>
+                        <a href="#">
+                        <img src="img/Untitled-1.jpg" alt="slide03">
+                        <div class="b_text">
+                            <h2>소아청소년클리닉</h2>
+                        </div> <!-- b_text -->
+                        </a>
+                    </li> <!-- box_03 -->
+                    <li>
+                        <a href="#">
+                        <img src="img/unrecognizable-girl-listening-heart.jpg" alt="slide04">
+                        <div class="b_text">
+                            <h2>뇌, 마음클리닉</h2>
+                        </div> <!-- b_text -->
+                        </a>
+                    </li> <!-- box_04 -->
+                </ul>
             </div> <!-- box -->
 
             <div class="photos">
@@ -146,6 +159,7 @@
         </main> <!-- main_inner -->
 
 
+
         <footer class="footer">
             <div class="f_inner">
                 <div class="f_inner1">
@@ -156,10 +170,10 @@
                     <p class="f_s">Copyright(c) 2024 by BIGTREE PSYCHIATRY All Rights Reserved.</p>
                 </div>
 
-                <사업자등록번호 class="f_inner2">
+                <div class="f_inner2">
                     <p class="f_text">LICENCE</p>
-                    <p class="f_s">사업자등록번호 : 691-92-01251</p>
-            </div>
+                    <p class="f_s">사업자등록번호 691-92-01251</p>
+                </div>
 
             <div class="f_inner2">
                 <p class="f_text">WEB MASTER</p>
@@ -168,7 +182,7 @@
             </div>
 
     </div>
-    </footer>
+    </footer> <!-- footer -->
 
 
 
